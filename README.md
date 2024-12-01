@@ -10,7 +10,7 @@ By that measurement, "quick brown fox" is 15 characters, including spaces.
 
 The recorded score is WPM * Accuracy.
 
-- Live Demo : [  ]
+- Live Demo : [ https://ruben-varghese007.github.io/WPM_Typing_Test/ ]
 
 ## Author
 - Name:  [Ruben George Varghese]
