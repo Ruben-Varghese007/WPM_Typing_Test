@@ -1,0 +1,109 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 60%;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.text-box {
+  border: 2px solid #ccc;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 1.5;
+  background: #fff;
+  text-align: left;
+  border-radius: 5px;
+  display: inline-block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-bottom: 20px;
+  user-select: none; /* Disable text selection */
+  pointer-events: none; /* Prevent interactions like highlighting or copying */
+}
+
+.typing-box {
+  border: 2px solid #333;
+  width: calc(100% - 22px);
+  height: 100px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 1.5;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  margin-left: 0; /* Aligns with the text above */
+}
+
+#info {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.results {
+  display: none;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Highlights */
+.correct {
+  background-color: #d4edda; /* Light green background for correct characters */
+  color: #000; /* Keep text color black for visibility */
+}
+
+.incorrect {
+  background-color: #f8d7da; /* Light red background for incorrect characters */
+  color: #000; /* Keep text color black for visibility */
+}
+
+#reset-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #ffc107;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#reset-btn:hover {
+  background: #e0a800;
+}
+
+#reset-btn.hidden {
+  display: none;
+}

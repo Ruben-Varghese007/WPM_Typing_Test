@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Typing Test</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Test</h1>
+    <div id="text-display" class="text-box"></div>
+    <textarea id="hidden-input" class="typing-box" autofocus></textarea>
+    <div id="info">
+      <p id="timer">Time: 0.00s</p>
+      <p id="accuracy">Accuracy: 100%</p>
+      <!-- Reset Button -->
+      <button id="reset-btn" onclick="initializeText()">Reset Test</button>
+    </div>
+    
+    <div id="results" class="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
